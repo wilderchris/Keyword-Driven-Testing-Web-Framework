@@ -32,7 +32,7 @@ public class Base {
 			driver.get("https://www.google.com/"); 
 		}else if(browserName.equals("edge")){
 			//Microsoft Edge browser settings needed
-		}else if(browserName.equals("chrome")) {
+		}else if(browserName.equals("")) {
 			// Firefox browser settings needed
 		}else {
 			//error catch custom exception needed
