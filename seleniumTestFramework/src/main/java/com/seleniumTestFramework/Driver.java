@@ -18,8 +18,10 @@ public class Driver {
 			KeywordEngine ke = new KeywordEngine();
 			ke.startExecution("sheet1");
 			
-			if (args[0] == "test") {
+			if (args[i] == "test") {
 
+			}else if(args[i] == "stats") {
+				
 			}
 		}
 
