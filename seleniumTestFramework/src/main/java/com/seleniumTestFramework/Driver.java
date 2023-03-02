@@ -15,7 +15,7 @@ public class Driver {
 		for (int i = 0; i < args.length; i++) {
 			System.out.println("arg[" + i + " ] = " + args[i]);
 
-			
+			args[0] = "test";
 			
 			if (args[i] == "test") {
 				KeywordEngine ke = new KeywordEngine();
