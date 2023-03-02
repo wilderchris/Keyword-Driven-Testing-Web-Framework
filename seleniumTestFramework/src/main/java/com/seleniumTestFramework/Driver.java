@@ -15,11 +15,11 @@ public class Driver {
 		for (int i = 0; i < args.length; i++) {
 			System.out.println("arg[" + i + " ] = " + args[i]);
 
-			KeywordEngine ke = new KeywordEngine();
-			ke.startExecution("sheet1");
+			
 			
 			if (args[i] == "test") {
-
+				KeywordEngine ke = new KeywordEngine();
+				ke.startExecution("sheet1");
 			}else if(args[i] == "stats") {
 				
 			}
