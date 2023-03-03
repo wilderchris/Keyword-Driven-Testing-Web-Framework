@@ -19,7 +19,7 @@ public class Base {
 	public WebDriver init_driver(String browserName) {
 		if(browserName.equals("chrome")) {
 			WebDriver driver = null;
-			WebDriverManager.chromedriver().version("77.0.3865.40").setup();
+			WebDriverManager.chromedriver().setup();
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("start-maximized"); 
 			options.addArguments("enable-automation"); 
