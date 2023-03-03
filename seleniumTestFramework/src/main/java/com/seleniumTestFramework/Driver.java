@@ -9,7 +9,7 @@ public class Driver {
 		// to decide type of test, file to use, and reporting type
 		if (args.length == 0) {
 			System.out.println("Usage for app:");
-			System.out.println("Driver [type] [file] [?]");
+			System.out.println("Driver [type] [file] [?]");//?
 		}
 
 		for (int i = 0; i < args.length; i++) {
