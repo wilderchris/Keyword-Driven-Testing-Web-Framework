@@ -2,6 +2,8 @@ package com.seleniumTestFramework;
 
 import com.seleniumTestFramework.keywordEngine.KeywordEngine;
 
+import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
+
 public class Driver {
 
 	public static void main(String[] args) {
@@ -22,7 +24,8 @@ public class Driver {
 				ke.startExecution("sheet1");
 				
 			}else if(args[i] == "stats") {
-				
+				System.out.println(" stats have not been created yet");
+				break;
 			}
 		}
 
