@@ -24,7 +24,7 @@ public class Driver {
 				ke.startExecution("sheet1");
 				
 			}else if(args[i] == "stats") {
-				System.out.println(" stats have not been created yet");
+				System.out.println(" stats have not been created ye use \"test\"");
 				break;
 			}
 		}
