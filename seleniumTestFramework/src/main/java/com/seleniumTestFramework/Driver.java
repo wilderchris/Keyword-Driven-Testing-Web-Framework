@@ -16,16 +16,14 @@ public class Driver {
 
 		for (int i = 0; i < args.length; i++) {
 			System.out.println("arg[" + i + " ] = " + args[i]);
-
-			args[0] = "test";
 			
 			if (args[i] == "test") {
 				KeywordEngine ke = new KeywordEngine();
 				ke.startExecution("sheet1");
 				
-			}else if(args[i] == "stats") {
+			}else if(args[0] == "stats") {
 				System.out.println(" stats have not been created ye use \"test\"");
-				break;
+				break; 
 			}
 		}
 
