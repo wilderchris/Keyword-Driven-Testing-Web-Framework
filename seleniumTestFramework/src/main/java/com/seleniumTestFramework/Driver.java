@@ -12,7 +12,7 @@ public class Driver {
 		if (args.length == 0) {
 			System.out.println("Usage for app:");
 			System.out.println("Driver [type] [file] [?]");//?
-		}
+		}// args will be used for file name to run the tests and browser type and then a report type
 
 		for (int i = 0; i < args.length; i++) {
 			System.out.println("arg[" + i + " ] = " + args[i]);
