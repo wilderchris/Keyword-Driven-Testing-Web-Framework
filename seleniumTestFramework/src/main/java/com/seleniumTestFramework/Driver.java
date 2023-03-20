@@ -26,7 +26,7 @@ public class Driver {
 				break; // add after 
 			}//  need to update for the selenium commands
 			// maybe easier to use an enum
-		}	//jhyfyhjfuydyujdyjudbydjyudydjygjdjggdgdh
+		}	//updating 
 	}		//expanding 
 			// and adding for weeekend inclusion
 }
