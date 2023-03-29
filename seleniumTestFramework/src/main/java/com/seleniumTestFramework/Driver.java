@@ -24,9 +24,9 @@ public class Driver {
 			}else if(args[0] == "stats") {
 				System.out.println(" stats have not been created ye use \"test\"");
 				break; // add after 
-			}//  need to update for the selenium commands
-			// maybe easier to use an enum
-		}	//updating 
-	}		//expanding 
-			// and adding for weeekend inclusion
+			}
+
+		}	
+		}
+			
 }
