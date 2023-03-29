@@ -26,7 +26,7 @@ public class Driver {
 				break; // add after 
 			}
 
-		}	
+		}	//updating the framework for a selenium easy of use
 		}
 			
 }
